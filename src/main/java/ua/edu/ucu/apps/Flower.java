@@ -14,6 +14,9 @@ public class Flower {
         return color.getColor();
     }
 
+    public Flower() {
+    }
+
     public Flower(final double price, final FlowerColor color, final double sepalLength) {
         this.price = price;
         this.color = color;
