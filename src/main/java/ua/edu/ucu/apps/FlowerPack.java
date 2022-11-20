@@ -14,6 +14,10 @@ public class FlowerPack {
         setAmount(amount);
     }
 
+    public FlowerType getFlowerType() {
+        return flower.getFlowerType();
+    }
+
     public double getPrice() {
         return amount * flower.getPrice();
     }
