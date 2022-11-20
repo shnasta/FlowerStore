@@ -13,4 +13,10 @@ public class Flower {
     public String getColor() {
         return color.getColor();
     }
+
+    public Flower(final double price, final FlowerColor color, final double sepalLength) {
+        this.price = price;
+        this.color = color;
+        this.sepalLength = sepalLength;
+    }
 }
