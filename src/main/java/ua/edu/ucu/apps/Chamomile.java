@@ -5,6 +5,6 @@ public class Chamomile extends Flower {
         super();
     }
     public Chamomile(final double price, final FlowerColor color, final double sepalLength) {
-        super(price, color, sepalLength);
+        super(FlowerType.CHAMOMILE, price, color, sepalLength);
     }
 }
