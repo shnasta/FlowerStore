@@ -1,7 +1,10 @@
 package ua.edu.ucu.apps;
 
+import lombok.Getter;
+
 import java.util.ArrayList;
 
+@Getter
 public class FlowerBucket {
     private ArrayList<FlowerPack> flowerPacks = new ArrayList<>();
 
